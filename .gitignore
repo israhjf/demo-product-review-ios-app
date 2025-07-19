@@ -1,0 +1,68 @@
+# Xcode/Build files
+build/
+DerivedData/
+*.xcworkspace
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+
+# User data / Schemes
+xcuserdata/
+*.moved-aside
+*.xcuserdatad
+*.swp
+
+# macOS system files
+.DS_Store
+
+# Logs & Temporary files
+*.log
+*.swp
+*.lock
+*.tmp
+
+# Bundler & Carthage
+Carthage/Build/
+Carthage/Checkouts/
+Carthage/xcframeworks
+Carthage/DerivedData
+
+# CocoaPods
+Pods/
+Podfile.lock
+.env
+.env.*
+
+# Swift Package Manager
+.packages
+.swiftpm
+Package.resolved
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Xcode Server
+integrationLogs/
+
+# Miscellaneous
+*.orig
+.idea/
+*.hmap
+*.ipa
+*.dmg
+*.zip
+*.gz
+
+# Playground generated files
+timeline.xctimeline
+playground.xcworkspace
+
+# Simulator
+*.simruntime
+
+# AppCenter/Crashlytics
+appcenter-*.json
+firebase-debug.log
